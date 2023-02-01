@@ -18,6 +18,10 @@ This extension contributes three commands that can be used to manage a Jaeger _a
 
 This command will start the Jaeger _all-in-one_ server (using in-memory storage).
 
+* Observability: Start Jaeger [jaegerOTLP.start]
+
+This command will start the Jaeger _all-in-one_ server (using in-memory storage) with OTLP enabled.
+
 * Observability: Show Jaeger UI [jaeger.ui]
 
 This command will open a web view to show the Jaeger UI.
